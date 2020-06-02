@@ -1,6 +1,7 @@
 // MENU
 const leftMenu = document.querySelector('.left-menu');
 const hamburger = document.querySelector('.hamburger');
+const tvShowsList= document.querySelector('.tv-shows__list')
 
 // открытие и закрытие меню
 
@@ -22,4 +23,4 @@ leftMenu.addEventListener('click',event=>{
         leftMenu.classList.add('openMenu');
         hamburger.classList.add('open');
     }
-});
+});  
